@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jodd:jodd-lagarto:3.7.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-lagarto/3.7.1/jodd-lagarto-3.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

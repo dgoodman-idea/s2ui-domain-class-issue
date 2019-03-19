@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myplugin/myplugin.iml" filepath="$PROJECT_DIR$/.idea/modules/myplugin/myplugin.iml" group="myplugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myplugin/myplugin_ast.iml" filepath="$PROJECT_DIR$/.idea/modules/myplugin/myplugin_ast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myplugin/myplugin_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myplugin/myplugin_integrationTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myplugin/myplugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/myplugin/myplugin_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myplugin/myplugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/myplugin/myplugin_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myweb/myweb.iml" filepath="$PROJECT_DIR$/.idea/modules/myweb/myweb.iml" group="myweb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myweb/myweb_integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/myweb/myweb_integrationTest.iml" group="myweb" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myweb/myweb_main.iml" filepath="$PROJECT_DIR$/.idea/modules/myweb/myweb_main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myweb/myweb_test.iml" filepath="$PROJECT_DIR$/.idea/modules/myweb/myweb_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/s2ui-domain-class-issue.iml" filepath="$PROJECT_DIR$/.idea/modules/s2ui-domain-class-issue.iml" />
+    </modules>
+  </component>
+</project>
