@@ -3,7 +3,7 @@ A simple demonstration of the issue found when using the s2ui plugin in a grails
 
 -----
 
-Our team has a new Grails 3.3.9 multi-project.  This issue manifests almost exactly like #56 but the work-around suggested there did not work.  Ultimately, copying the Domain classes into the myweb subproject fixed the issue.  We want our Domain classes, including those for Spring Security (SecUser and SecRole) to reside in the shared plugin.
+Our team has a new Grails 3.3.9 multi-project.  This issue manifests almost exactly like #56 but the work-around suggested there did not work.  **Ultimately, copying the Domain classes from myplugin into the myweb subproject fixed the issue**.  However, we want our Domain classes, including those for Spring Security (SecUser and SecRole) to reside in the shared plugin.
 
 ### Task List
 
@@ -14,6 +14,8 @@ Our team has a new Grails 3.3.9 multi-project.  This issue manifests almost exac
 
 ### Steps to Reproduce
 
+**NOTE:** If you clone the repo below, you can start with step 4
+
 1. Setup a Grails multi-project as detailed in this article: http://www.databaseapplications.com.au/grails-multi-app.jsp
 2. Add s2ui to the myweb subproject
        `compile 'org.grails.plugins:spring-security-ui:3.1.2'`
@@ -22,7 +24,7 @@ Our team has a new Grails 3.3.9 multi-project.  This issue manifests almost exac
     2. `grails s2ui-override layout`
     3. `grails s2ui-override role com.example` (replace existing controller from earlier generate-all)
     4. `grails s2ui-override user com.example` (replace existing controller from earlier generate-all)
-4. `grails run-app`
+4. `cd myweb; grails run-app`
 5. Login to the app with user `admin` and password `strongPassword`.
 6. Navigate to `/role/create` or `/user/create`
 
