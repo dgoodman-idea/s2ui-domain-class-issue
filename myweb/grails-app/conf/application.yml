@@ -123,6 +123,11 @@ endpoints:
         unique-names: true
 
 ---
+grails:
+    mail:
+        host:
+
+---
 hibernate:
     cache:
         queries: false
